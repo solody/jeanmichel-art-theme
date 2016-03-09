@@ -1,0 +1,23 @@
+name = jeanmichel
+description = jeanmichel.
+package = Jeanmichel
+version = VERSION
+core = 7.x
+
+
+stylesheets[all][] = style.css
+scripts[] = js/cloud-zoom.1.0.2.min.js
+
+regions[header_bar] = Header Bar
+regions[header_left] = Header Left
+regions[header_right] = Header Right
+
+regions[main_top] = Main Top
+regions[content] = Main Content
+regions[main_bottom] = Main Bottom
+
+regions[footer] = Page Foot
+
+regions[indexlist_first] = Indexlist First
+regions[indexlist_second] = Indexlist Second
+regions[indexlist_third] = Indexlist Third

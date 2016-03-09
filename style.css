@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{font-family:"HelveticaNeue-Light";
+src:url("fonts/helvetica-neue-light/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix");
+src:url("fonts/helvetica-neue-light/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix") format("eot"),
+url("fonts/helvetica-neue-light/9a2e4855-380f-477f-950e-d98e8db54eac.woff") format("woff"),
+url("fonts/helvetica-neue-light/fa82d0ee-4fbd-4cc9-bf9f-226ad1fcbae2.ttf") format("truetype"),
+url("fonts/helvetica-neue-light/48d599a6-92b5-4d43-a4ac-8959f6971853.svg#48d599a6-92b5-4d43-a4ac-8959f6971853") format("svg")
+}
+#breadcrumb { display:none;}
+
+body { background: #b6b5b3/*top center no-repeat url(image/bg.png)*/;}
+
+body,a { font-family:Constantia,Georgia,微软雅黑, "Lucida Bright", "DejaVu Serif",  serif;}
+a { color:#5C5C5C;}
+
+p {text-indent:2em;}
+
+.jeanmichel_art-page_wrapper { /*background-color:#873A3C;*/font-size:12px;
+    width:1080px; margin:0px auto 0px auto;
+}
+
+
+
+.jeanmichel_art-header_bar { /*background-color:#30830F; */
+    overflow:hidden; padding:20px 0px 5px 0px;
+	}
+	
+.jeanmichel_art-header_main { /*background-color:#191660; */
+    overflow:hidden; border-bottom:1px solid #CDCDCD;
+	}
+.jeanmichel_art-header_main_left {/*background-color:#8B073C;*/
+    float:left;
+	}
+.jeanmichel_art-header_main_right {/*background-color:#C17E7F;*/
+    float:right; padding:0px; vertical-align:bottom;
+	}
+
+.jeanmichel_art-main {/*background-color:#0E8E70;*/
+    
+	}
+.jeanmichel_art-main_top { /*background-color:#950BDC;*/
+    
+	}
+.jeanmichel_art-main_content { /*background-color:#1173A3;*/
+    
+	}
+.jeanmichel_art-main_bottom {background-color:#5C9E06;}
+.jeanmichel_art-footer { margin-top:30px; padding:20px 0px;border-top:1px solid #CDCDCD;}
+
+
+/*文字阴影*/
+.jeanmichel_art-header_bar div#block-locale-language,
+.jeanmichel_art-header_main_right .menu a,
+.jeanmichel_art-header_bar div#name-and-slogan div#site-name a,
+.jeanmichel_art-header_bar div#name-and-slogan h1#site-name a
+{
+	 text-shadow:2px 2px 3px #969696;
+	 }
+
+
+/*页头bar样式*/
+.jeanmichel_art-header_bar div#name-and-slogan { float:left;}
+.jeanmichel_art-header_bar div#name-and-slogan h1 { margin:0px; padding:0px; font-weight:normal; font-size:12px;}
+.jeanmichel_art-header_bar div#name-and-slogan h1#site-name a,
+.jeanmichel_art-header_bar div#name-and-slogan div#site-name a { font-size:133%; color:#2F2F2F; Letter-spacing:6px; padding-left:2px;}
+.jeanmichel_art-header_bar div#name-and-slogan div#site-slogan { display:none;}
+.jeanmichel_art-header_bar div#name-and-slogan a { font-size:100%; font-weight:normal; text-decoration:none;}
+.jeanmichel_art-header_bar div#block-locale-language { padding-right:10px;}
+.jeanmichel_art-header_bar div.region { float:right; width:300px; text-align:right; }
+.jeanmichel_art-header_bar div.region h2 { display:inline; font-size:100%; font-weight:normal;}
+.jeanmichel_art-header_bar div.region div.contextual-links-wrapper { display:none;}
+.jeanmichel_art-header_bar div.region div.block { display:inline;}
+.jeanmichel_art-header_bar div.region div.block div.content { display:inline;}
+.jeanmichel_art-header_bar div.region div.block div.content ul { display:inline; padding:0px 0px 0px 0px;}
+.jeanmichel_art-header_bar div.region div.block div.content ul li { display:inline; padding-left:10px;}
+
+
+/*头部主菜单样式*/
+.jeanmichel_art-header_main_right ul.menu { padding:45px 0px 0px 0px; margin:0px; font-size:150%; height:33px; overflow:hidden;}
+.jeanmichel_art-header_main_right ul.menu li { display:block; padding:0px 0px 20px 20px; float:left;}
+.jeanmichel_art-header_main_right ul.menu a { text-decoration:none; color:#2F2F2F; display:block;}
+.jeanmichel_art-header_main_right ul.menu a.active,
+.jeanmichel_art-header_main_right ul.menu a.active-trail { color:#FFF; }
+
+.jeanmichel_art-header_main_right ul.menu li ul.menu { position:absolute;display:none; border:1px solid #7E7E7E; background:rgba(0,0,0,0.2); z-index:99; padding:0px; margin-left:-20px; height:auto; margin-top:5px;}
+.jeanmichel_art-header_main_right ul.menu li ul.menu li { display:block; /*background:rgba(0,0,0,0.61);*/ float:none; padding:0px;margin:0px;}
+.jeanmichel_art-header_main_right ul.menu li ul.menu li a { padding:5px 20px; font-size:18px;}
+
+/*主体内容头部*/
+.jeanmichel_art-main_top div.breadcrumb { height:30px; line-height:30px; padding:0px 10px 0px 10px; color:#B1B0B0;}
+
+.jeanmichel_art-main_content {}
+.jeanmichel_art-main_content h1.title { width:1030px; text-align:right; margin:10px 0px 10px 0px; padding-right:30px; font-size:250%; line-height:50px; color:#F1F1F1; border-right:20px solid #F1F1F1; }
+
+.jeanmichel_art-main_content div.view-content { overflow:hidden;}
+.jeanmichel_art-main_content div.view-content div.views-row{ width:282px; float:left; }
+
+.jeanmichel_art-main_content div.view-content div.jeanmichel_art-painting_table { width:1140px; overflow:hidden;}
+
+div.jeanmichel_art-painting_table div.views-row { padding-bottom:20px;}
+
+.jeanmichel_art-painting_item-image_box { width:232px; height:232px; overflow:hidden; line-height:232px; }
+.jeanmichel_art-painting_item-image_box img { vertical-align:bottom;}
+.jeanmichel_art-painting_item-create_time { width:220px; height:25px; overflow:hidden; line-height:25px; text-align:center;}
+.jeanmichel_art-painting_item-create_time span { vertical-align:middle; }
+.jeanmichel_art-painting_item-title { width:220px; /*height:40px; padding-bottom:20px;*/ overflow:hidden; line-height:20px; text-align:center; }
+.jeanmichel_art-painting_item-title a { text-decoration:none; color:#252424;}
+.jeanmichel_art-painting_item-title span { vertical-align:middle;}
+
+/*Views模块*/
+.jeanmichel_art-view_navigation { position:relative; top:-45px;}
+.jeanmichel_art-view_navigation ul.views-summary { margin:0px; overflow:hidden;}
+.jeanmichel_art-view_navigation ul.views-summary li { height:30px; line-height:30px; font-size:150%; margin:0px; list-style-type:none; float:left; padding-right:30px;}
+.jeanmichel_art-view_navigation ul.views-summary li a { text-decoration:none; color:#2D2D2D;}
+
+.jeanmichel_art-view-press_list,
+.jeanmichel_art-view-exhibition_list { overflow:hidden; position:relative; top:-50px;}
+.jeanmichel_art-view-press_list div.view-content div.views-row { width:auto; float:none; }
+.jeanmichel_art-view-press_list div.attachment-before,
+.jeanmichel_art-view-exhibition_list div.attachment-before { float:right; width:243px; height:100%; margin:80px 7px 0px 0px; border-right:#008BBE 3px solid; padding-bottom:50px;}
+.jeanmichel_art-view-press_list div.attachment-before ul.views-summary li,
+.jeanmichel_art-view-exhibition_list div.attachment-before ul.views-summary li{ height:30px; line-height:30px; font-size:150%; margin:0px; list-style-type:none; padding-right:30px; text-align:right;}
+.jeanmichel_art-view-press_list div.attachment-before ul.views-summary li a,
+.jeanmichel_art-view-exhibition_list div.attachment-before ul.views-summary li a{ text-decoration:none; color:#2D2D2D;}
+
+.jeanmichel_art-view-press_list div.views-row { padding: 10px 30px 30px 30px; margin-bottom:30px; border-left:3px solid #F1F1F1;}
+.jeanmichel_art-view-press_list div.views-row div.node h2 { padding:0px 0px 0px 10px; border-left:10px solid #FFF;}
+.jeanmichel_art-view-press_list div.views-row div.node h2 a { color:#FFF; text-decoration:none;}
+.jeanmichel_art-view-press_list div.views-row div.node div.submitted { font-style:italic;}
+
+.jeanmichel_art-view-exhibition_list div.view-content { padding-top:0px;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row { width:275px;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.views-field { padding-right:20px; height:25px; overflow:hidden; line-height:25px; color:#5B5B5B;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.views-field-field-exhibition-poster { width:240px; height:240px; overflow:hidden; margin-top:40px; line-height:240px;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.views-field-field-exhibition-poster img { vertical-align:bottom;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.views-field-title { font-size:120%;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.views-field-field-exhibition-city div { display:inline;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.views-field-field-exhibition-city div span { padding-left:10px;}
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.views-field a { text-decoration:none; color:#000000; }
+.jeanmichel_art-view-exhibition_list div.attachment-before div.view-content { padding-top:20px;}
+
+.jeanmichel_art-view-exhibition_list-coming div.attachment-after {}
+.jeanmichel_art-view-exhibition_list-coming div.view-content div.views-row { width:270px;}
+.jeanmichel_art-view-exhibition_list-title { margin-bottom:20px; padding:0px 0px 0px 10px; border-left:10px solid #FFF; line-height:30px; color:#FFF; font-size:18px;}
+
+
+/* 图片边框 */
+.jeanmichel_art-view-press_list div.views-row div.node div.content img,
+.jeanmichel_art-page div.content div.field-name-field-illustrators img,
+.jeanmichel_art-article div.content img,
+.jeanmichel_art-painting div.content div.field-name-field-painting-image img,
+.jeanmichel_art-painting div.content div.field-name-field-sculpture-image img,
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-poster img,
+.jeanmichel_art-view-exhibition_list div.view-content div.views-row div.field-content img,
+.jeanmichel_art-painting_item-image_box img
+{ padding:5px; border:1px #E9E9E9 solid; background-color:#F7F7F7;}
+
+/*内容文本字体*/
+.jeanmichel_art-page div.content div.field-name-body,
+.jeanmichel_art-article div.content div.field-name-body
+{ font-size:120%; line-height:26px; }
+
+/*Page类型节点页面*/
+.jeanmichel_art-page {}
+.jeanmichel_art-page div.content { overflow:hidden;margin-right:7px;  border-right:#008BBE 3px solid;}
+.jeanmichel_art-page div.content div.field { float:left;}
+.jeanmichel_art-page div.content div.field-name-field-illustrators { width:400px;}
+.jeanmichel_art-page div.content div.field-name-field-illustrators div.field-item { width:300px; overflow:hidden; padding:50px 50px 50px 0px;}
+.jeanmichel_art-page div.content div.field-name-body { width:620px; padding:30px 50px 50px 0px; margin-top:0px;}
+.jeanmichel_art-page div.content div.form-item { clear:both;}
+
+/*Article类型节点页面*/
+.jeanmichel_art-article div.submitted,
+.jeanmichel_art-painting div.submitted, /*油画节点页编辑信息*/
+.jeanmichel_art-exhibition div.submitted /*展会节点页编辑信息*/
+{ font-style:italic; border-left:10px solid #008BBE; padding-left:18px; }
+.jeanmichel_art-article div.content,
+.jeanmichel_art-painting div.content, /*油画节点页内容框*/
+.jeanmichel_art-exhibition div.content /*展会节点页内容框*/
+{ margin:20px 0px 0px 4px; border-left:1px solid #008BBE; padding:20px; overflow:hidden;}
+
+
+
+/*Painting类型节点页*/
+.jeanmichel_art-painting div.submitted {/*见Article类型节点页面*/}
+.jeanmichel_art-painting div.content {/*见Article类型节点页面*/}
+.jeanmichel_art-painting div.content div.field,
+.jeanmichel_art-painting div.content div.form-item,
+.jeanmichel_art-exhibition div.content div.field, /*展会字段*/
+.jeanmichel_art-exhibition div.content div.form-item /*展会字段*/
+{ float:left; width:500px; line-height:28px;}
+.jeanmichel_art-painting div.content div.field-name-field-painting-image,
+.jeanmichel_art-painting div.content div.field-name-field-sculpture-image,
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-poster/*展会海报字段*/
+{ float:right;}
+ 
+/*Exhibition类型节点页面*/
+.jeanmichel_art-exhibition div.submitted {/*见Article类型节点页面*/}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings,
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-photos { width:auto; clear:both;} /*取消浮动*/
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting h2 { font:120%; position:absolute; margin:20px 0px 0px 292px;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting h2 a { text-decoration:none; color:#464646;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting div.submitted,
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting ul.links  { display:none;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting div.content { overflow:hidden; background-color:#F8F8F8; border-left:4px solid #C9C8C8; margin-left:0px;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting div.content div.field { float:right; width:720px;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting div.content div.field-name-field-painting-image { width:250px; float:left;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting div.content div.field-name-body { height:28px; overflow:hidden; text-overflow:ellipsis; margin-top:30px; }
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-paintings div.field-items div.field-item div.node-painting div.content div.field-name-body p { margin:0px;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-photos { margin-top:20px;}
+.jeanmichel_art-exhibition div.content div.field-name-field-exhibition-photos div.field-items { display:none;}
+
+.field-name-body { WORD-WRAP: break-word;}
+
+
+
+/* 首页内容列表 */
+.jeanmichel_art-indexlist { overflow:hidden; margin-top:10px;}
+.jeanmichel_art-indexlist-box { width:32%; margin-left:2%; float:left;}
+.jeanmichel_art-indexlist-box:first-child { margin-left:0%;}
+.jeanmichel_art-indexlist-box h3 { margin:0px 0px 10px 0px; padding:0px 0px 0px 10px; border-left:10px solid #FFF; height:20px; line-height:20px; color:#FFF;}
+
+.jeanmichel_art-indexlist-img { border:1px solid #ccc; padding:6px 7px; background:rgba(255,255,255,0.20); border-bottom:none;}
+.jeanmichel_art-indexlist-img img { display:block;}
+.jeanmichel_art-indexlist-list { border:1px solid #ccc; padding:6px 7px; background:rgba(255,255,255,0.20); border-top:none;}
+.jeanmichel_art-indexlist-list .views-row{ border-bottom:1px dashed #C4C3C2; line-height:30px; padding:0px 20px; font-size:14px;}
+.jeanmichel_art-indexlist-list .views-row:last-child { border-bottom:none;}
+.jeanmichel_art-indexlist-list .views-row a { color:#000000; text-decoration:none;}
