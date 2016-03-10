@@ -80,6 +80,9 @@
  * @ingroup themeable
  */
 ?>
+
+<?php if ($page): ?>
+
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?><?php if ($page){print ' jeanmichel_art-article';}?> clearfix"<?php print $attributes; ?>>
 
   <?php print $user_picture; ?>
@@ -110,3 +113,16 @@
   <?php //print render($content['comments']); ?>
 
 </div>
+
+<?php else : ?>
+
+<?php //print_r($content['field_illustrators']['#object']->field_illustrators); ?>
+<a href="<?php echo $node_url; ?>">
+<?php 
+if (!empty($content['field_illustrators']['#object']->field_illustrators['und'][0]['uri'])) 
+    $image_path = $content['field_illustrators']['#object']->field_illustrators['und'][0]['uri'];
+else $image_path = '';?>
+<div class="img_box"><img src="<?php echo image_style_url('medium',$image_path); ?>"></div>
+<div class="title_box"><?php echo $title; ?></div>
+</a>
+<?php endif; ?>

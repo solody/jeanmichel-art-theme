@@ -117,7 +117,7 @@ div.jeanmichel_art-painting_table div.views-row { padding-bottom:20px;}
 
 .jeanmichel_art-view-press_list,
 .jeanmichel_art-view-exhibition_list { overflow:hidden; position:relative; top:-50px;}
-.jeanmichel_art-view-press_list div.view-content div.views-row { width:auto; float:none; }
+.jeanmichel_art-view-press_list div.view-content div.views-row { width:auto; float:left; margin-bottom:20px; }
 .jeanmichel_art-view-press_list div.attachment-before,
 .jeanmichel_art-view-exhibition_list div.attachment-before { float:right; width:243px; height:100%; margin:80px 7px 0px 0px; border-right:#008BBE 3px solid; padding-bottom:50px;}
 .jeanmichel_art-view-press_list div.attachment-before ul.views-summary li,
@@ -125,10 +125,11 @@ div.jeanmichel_art-painting_table div.views-row { padding-bottom:20px;}
 .jeanmichel_art-view-press_list div.attachment-before ul.views-summary li a,
 .jeanmichel_art-view-exhibition_list div.attachment-before ul.views-summary li a{ text-decoration:none; color:#2D2D2D;}
 
-.jeanmichel_art-view-press_list div.views-row { padding: 10px 30px 30px 30px; margin-bottom:30px; border-left:3px solid #F1F1F1;}
-.jeanmichel_art-view-press_list div.views-row div.node h2 { padding:0px 0px 0px 10px; border-left:10px solid #FFF;}
-.jeanmichel_art-view-press_list div.views-row div.node h2 a { color:#FFF; text-decoration:none;}
-.jeanmichel_art-view-press_list div.views-row div.node div.submitted { font-style:italic;}
+.jeanmichel_art-view-press_list div.views-row div.img_box { width:262px; height:232px; overflow:hidden; line-height:232px; }
+.jeanmichel_art-view-press_list div.views-row div.img_box img{padding: 5px; border: 1px #E9E9E9 solid; background-color: #F7F7F7;vertical-align: bottom;}
+.jeanmichel_art-view-press_list div.views-row div.title_box { width:232px; height:60px; overflow: hidden; line-height: 30px;}
+
+.jeanmichel_art-article div.content img {margin-bottom: 30px;}
 
 .jeanmichel_art-view-exhibition_list div.view-content { padding-top:0px;}
 .jeanmichel_art-view-exhibition_list div.view-content div.views-row { width:275px;}
